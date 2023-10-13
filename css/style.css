@@ -120,3 +120,100 @@ strong {
   color: #f6b93b;
   font-weight: 400;
 }
+
+/* offre */
+
+.offre{
+  padding: 10rem 1rem;
+}
+
+.container{
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+.offre-list{
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+justify-content: space-between;
+
+}
+.offre-elem{
+  border: 1px solid #ddd;
+  margin: 1rem;
+  background: white;
+  flex: 1;
+}
+.offre-elem-img{
+width: 100%;
+
+}
+.title{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.offre-elem-text{
+  padding: 2rem;
+  text-align: center;
+}
+.offre-separator{
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .dernieroffre{
+  min-height: 130vh;
+  background:#ddd;
+}
+.offres{
+  display: flex;
+  justify-content: center;
+}
+.img-offre1{
+  min-width: 350px;
+  min-height: 250px;
+  border:2px solid #333;
+}
+.img-offre2{
+  min-width: 350px;
+  min-height: 250px;
+border:2px solid #333;
+margin: 0px 20px;
+}
+.img-offre3{
+  min-width: 350px;
+  min-height: 250px;
+  border:2px solid #333;
+}
+.container-offre1{
+background-color: white;
+border:2px solid #333;
+}
+.container-offre2{
+  background-color: white;
+border:2px solid #333;
+
+}
+.container-offre3{
+  background-color: white;
+  border:2px solid #333;
+} */
