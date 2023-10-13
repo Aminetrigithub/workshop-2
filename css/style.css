@@ -17,6 +17,11 @@ h4 {
   margin-bottom: 1rem;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  ;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -31,6 +36,7 @@ a {
 } */
 
 .vp-container {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -38,7 +44,7 @@ a {
 .header {
   display: flex;
   background-color: #333;
-  line-height: 1.7rem;
+  line-height: 1.8rem;
   color: white;
   justify-content: space-between;
   padding: 1rem 2rem;
@@ -48,6 +54,13 @@ a {
 .vp-logo {
   display: flex;
   align-items: center;
+
+}
+
+.vp-logo a {
+  font-size: 4rem;
+  font-weight: 300;
+
 }
 
 .vp-container h2 a {
@@ -58,16 +71,52 @@ a {
 
 .header ul {
   display: flex;
-    padding: 10px;
-    list-style: none;
+  padding: 10px;
+  list-style: none;
 }
- 
-.header ul li a{
+
+.header ul li a {
   padding: 8px;
 }
-.header ul li a:hover{
-background-color:#f6b93b ;
+
+.header ul li a:hover {
+  background-color: #f6b93b;
 }
-/* 
-font-family: 'Montserrat', sans-serif;
-*/
+
+
+
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/frame.jpg);
+  background-position: center center;
+  background-size: cover; */
+  background: url(../images/frame.jpg)center center/cover;
+}
+
+.vp-content p{
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+strong {
+  color: #f6b93b;
+  font-weight: 400;
+}
