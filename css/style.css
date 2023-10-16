@@ -18,13 +18,16 @@ h4 {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  ;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+.bg-dark{
+background: #333;
+color: white;
 }
 
 /* .vp-container {
@@ -48,23 +51,20 @@ a {
   color: white;
   justify-content: space-between;
   padding: 1rem 2rem;
-
 }
 
 .vp-logo {
   display: flex;
   align-items: center;
-
 }
 
 .vp-logo a {
   font-size: 4rem;
   font-weight: 300;
-
 }
 
 .vp-container h2 a {
-  font-family: 'Long Cang', cursive;
+  font-family: "Long Cang", cursive;
   font-weight: 5rem;
   font-size: 2rem;
 }
@@ -83,9 +83,6 @@ a {
   background-color: #f6b93b;
 }
 
-
-
-
 .vp-content {
   max-width: 800px;
   text-align: center;
@@ -99,6 +96,7 @@ a {
 
 .vp {
   flex: auto;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,10 +104,10 @@ a {
   /* background-image: url(../images/frame.jpg);
   background-position: center center;
   background-size: cover; */
-  background: url(../images/frame.jpg)center center/cover;
+  background: url(../images/frame.jpg) center center/cover;
 }
 
-.vp-content p{
+.vp-content p {
   font-size: 1.8rem;
   font-weight: 300;
   letter-spacing: 1px;
@@ -123,97 +121,64 @@ strong {
 
 /* offre */
 
-.offre{
+.offre {
   padding: 10rem 1rem;
 }
 
-.container{
+.container {
   display: block;
   max-width: 1200px;
   margin: auto;
 }
-.offre-list{
+.offre-list {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
-justify-content: space-between;
-
+  justify-content: space-between;
 }
-.offre-elem{
+.offre-elem {
   border: 1px solid #ddd;
   margin: 1rem;
   background: white;
   flex: 1;
 }
-.offre-elem-img{
-width: 100%;
-
+.offre-elem-img {
+  width: 100%;
 }
-.title{
+.title {
   font-size: 2rem;
   font-weight: 300;
 }
-.offre-elem-text{
+.offre-elem-text {
   padding: 2rem;
   text-align: center;
 }
-.offre-separator{
+.offre-separator {
   margin: 1rem auto;
   height: 2px;
   width: 50px;
   background: #333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .dernieroffre{
-  min-height: 130vh;
-  background:#ddd;
-}
-.offres{
+/* who */
+.who {
   display: flex;
+  flex-flow: row nowrap;
+}
+.who-content-img img {
+  width: 100%;
+}
+.who-content-img {
+  flex: 1;
+}
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
-.img-offre1{
-  min-width: 350px;
-  min-height: 250px;
-  border:2px solid #333;
-}
-.img-offre2{
-  min-width: 350px;
-  min-height: 250px;
-border:2px solid #333;
-margin: 0px 20px;
-}
-.img-offre3{
-  min-width: 350px;
-  min-height: 250px;
-  border:2px solid #333;
-}
-.container-offre1{
-background-color: white;
-border:2px solid #333;
-}
-.container-offre2{
-  background-color: white;
-border:2px solid #333;
 
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
-.container-offre3{
-  background-color: white;
-  border:2px solid #333;
-} */
