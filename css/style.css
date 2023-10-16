@@ -16,9 +16,19 @@ h3,
 h4 {
   margin-bottom: 1rem;
 }
+b{
+  color: #4eb8ff;
+  font-weight: 700;
+  font-size: 12px;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
+  background: #ddd;
+}
+
+.fa-xl{
+  color: #4eb8ff;
 }
 
 a {
@@ -182,3 +192,52 @@ strong {
   font-size: 1.3rem;
   line-height: 1.8rem;
 }
+/* ===============================================Testimonials"============================================== */
+.testimonials{
+  padding: 5rem 1rem;
+}
+.testimonials-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-elem {
+  flex: 1 1 0%;
+  display: flex;
+  background: white;
+  padding: 2rem;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.testimonials-elem-text{
+  padding: 0 2rem;
+}
+.testimonials-elem-profil{
+  text-align: center;
+}
+
+.testimonials-elem-profil img {
+  width: 70px;
+  border-radius: 70px;
+  border: 3px solid #4eb8ff;
+  /* margin-bottom: 0.5rem; */
+}
+
+.testimonials-elem-profil p {
+ font-weight:  700;
+  margin-bottom: 0.5rem; 
+}
+
+.testimonials-elem-text p {
+  margin: 0.2rem;
+}
+
+
+    /*================================================= testimonials" =============================*/
+
+
+
+
