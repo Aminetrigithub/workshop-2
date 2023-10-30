@@ -1,0 +1,344 @@
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+em {
+  font-weight: 700;
+  color: crimson;
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ddd;
+  ;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.bg-dark {
+  color: white;
+  background-color: #333;
+}
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #333;
+  line-height: 1.8rem;
+  color: white;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+}
+
+.vp-logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.vp-logo a {
+  font-size: 4rem;
+  font-weight: 300;
+
+}
+
+.vp-container h2 a {
+  font-family: 'Long Cang', cursive;
+  font-weight: 5rem;
+  font-size: 2rem;
+}
+
+.header ul {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.header ul li a {
+  padding: 8px;
+}
+
+.header ul li a:hover {
+  background-color: #f6b93b;
+}
+
+
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.vp {
+  height: 700px;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/frame.jpg);
+  background-position: center center;
+  background-size: cover; */
+  background: url(../images/frame.jpg)center center/cover;
+}
+
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+strong {
+  color: #f6b93b;
+  font-weight: 400;
+}
+
+/* offre */
+
+.offre {
+  padding: 10rem 1rem;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.offre-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: space-between;
+
+}
+
+.offre-elem {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  background: white;
+  flex: 1;
+}
+
+.offre-elem-img {
+  width: 100%;
+
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.offre-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+
+.offre-separator {
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #333;
+}
+/* who */
+.who {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.who-content-img img {
+  width: 100%;
+}
+
+.who-content-img {
+  flex: 1;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+/* code de partie testimonials */
+
+
+
+
+
+.formulaire {
+  /* background: transparent; */
+  border: none;
+
+}
+
+.btn-submit {
+  height: 50px;
+  width: 150px;
+  background: #f6b93b;
+  color: white;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: large;
+  /* flex-shrink: 1; */
+
+}
+
+.contact h2 {
+  color: white;
+}
+
+
+
+/* =======testimonials================= */
+
+.testimonials {
+  padding: 5rem 1rem;
+}
+
+.testimonials-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-elem {
+  padding: 2rem;
+  background: white;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  flex: 1 1 0%;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+
+}
+
+.testimonials-elem-profile {
+  font-size: small;
+  text-align: center;
+}
+
+.testimonials-elem-profile img {
+  margin: 50px 0px 0px 0px;
+  width: 70px;
+  border-radius: 70px;
+  border: 3px solid crimson;
+
+}
+
+.testimonials-elem-text {
+  padding: 0 3rem;
+}
+
+.testimonials-elem-profile p {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* contact */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 1rem;
+  align-items: center;
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input {
+  background: #333;
+  border: 0px;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.5rem;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-form button {
+  display: block;
+  padding: 1rem 2rem;
+  color: white;
+  background: #f6b93b;
+  border-radius: 50px;
+  border: 0px;
+  margin: 3rem auto;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.contact-form button:hover{
+  background:red;
+  color: aquamarine;
+}
+
+/* ==============testimonials============ */
+
+/* footer */
+footer{
+  background: #444 ;
+  padding: 5rem  1rem;
+   color: white;
+}
+
+/* footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #333;
+  text-align: center;
+  color: white;
+} */
